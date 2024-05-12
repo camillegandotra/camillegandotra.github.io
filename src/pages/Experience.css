@@ -1,0 +1,30 @@
+#experience-block {
+    padding: 10px 0 10px 0;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+
+#experience-name {
+    
+    width: fit-content; 
+    height: fit-content;
+
+    border: 0;
+    border-right: 2px solid rgba(0, 0, 0, 1);
+
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 14px;
+    height: 14px;
+}
+
+#p-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

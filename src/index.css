@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/menlo');
+@import url('https://fonts.cdnfonts.com/css/monaco');
+body {
+  margin: 0;
+  font-family: 'Menlo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+h1 {
+  font-size: 13px;
+  font-weight: 800;
+
+}
+
+h2, .link {
+  font-size: 12.5px;
+  color: rgb(35, 35, 35);
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 10px;
+  color: rgb(114, 114, 114);
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.Experience, .Education, .Home, .Projects {
+  padding: 0 20px 40px 20px;
+}
+
+.Home {
+  padding-top: 30px;
+}
+
+.AboutMe, .Contact, .Footer {
+  padding: 0px 20px 0px 20px;
+  margin: 0px 10px 0 10px;
+}
+
+
+.Intro {
+  padding: 0 30px 30px 30px;
+}
+
+.AboutMe {
+  padding-bottom: 20px;
+}
+.Experience, .Education, .Projects {
+  padding-top: 40px;
+}
+
+.NavBar {
+  padding: 10px 30px 0 30px;
+  margin: 0px 10px 0 10px;
+
+}
+.item {
+  /* border: 5px solid rgb(236, 49, 49); */
+  position: relative; /* Make the container position relative to position children absolutely inside it */
+  display: flex; /* Using flex to manage layout of other items */
+  align-items: flex-start; /* Align items to the top */
+  flex-direction: column;
+}
+
+.items {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-header {
+      /* border: 5px solid rgb(236, 49, 49); */
+}
+#edu-institution, #exp-company, #p-name {
+  width: fit-content;
+  /* border: 5px solid rgb(236, 49, 49); */
+  margin: 0;
+  text-decoration: underline;
+}
+
+#edu-degree, #exp-position, #p-position {
+  width: fit-content;
+  /* border: 5px solid rgb(236, 49, 49); */
+  margin: 0;
+}
+
+#edu-time, #exp-time, #p-time {
+  margin: 0;
+  right: 0;
+  top: 0;
+  position:absolute;
+  width: fit-content;
+  /* border: 5px solid rgb(236, 49, 49); */
+}
+
+#exp-desc-item {
+  padding: 0 0 0 10px;
+}

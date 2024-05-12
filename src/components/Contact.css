@@ -1,0 +1,15 @@
+.Contact {
+    /* border: 5px solid rgb(236, 49, 49); */
+    align-items: end;
+    text-align: start;
+
+}
+
+
+
+#contact-links {
+    margin: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

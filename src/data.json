@@ -1,0 +1,181 @@
+{
+    "profile": {
+        "aboutme": ["Hello! My name is Camille Gandotra and I am",
+        " a third year undergraduate student studying Computer Engineering",
+        " at UCSC. ",
+        "I am interested in Parallel Computing and Software Development. ",
+        "Currently I am doing research categorizing weak memory patterns from different ",
+        "memory models and synchronization techniques. ",
+        "I will be joining Microsoft as a Software Developer Intern for the Summer."
+        ]
+    },
+    
+    "education": [
+      {
+        "institution": "University of California, Santa Cruz",
+        "degree": "B.S. Computer Engineering",
+        "startdate": "2021",
+        "enddate": "2024",
+        "relevant courses": ["Data Structures and Algorithms, Computer Architecture, ",
+            "Artificial Intelligence, Database Systems, Parallel Programming, Computer Networks, ",
+            "Computer Systems Design, Embedded Systems Design, Computer Systems and C Programming/Assembly, ",
+            "Logic Design, Programming Abstractions: Python, Circuits and Systems"
+        ],
+        "activities/societies": "Tau Beta Pi, Tech4Good"
+      }
+    ],
+    "experience": [
+        {
+          "category": "work",
+          "company": "Microsoft",
+          "position": "Incoming Software Developer Intern",
+          "startdate": "June 2024",
+          "enddate": "Sept 2024",
+          "description": []
+        },
+        {
+            "category": "organizations",
+            "company": "Tech4Good",
+            "position": "Software Developer",
+            "startdate": "Sept 2023",
+            "enddate": "Dec 2023",
+            "description": [
+                [
+                    "Assisted deployment of a Slackbot for Timely; an app ",
+                    "augmented with artificial intelligence for improved ",
+                    "scheduling; utilizing Python, Google Cloud Functions, and Slackbot APIs."
+
+                ],
+                [
+                    "Directed 4+ projects, improving user experience and bot's functionality ",
+                    "for scheduling meetings and facilitating decision-making processes."
+                ]
+            ]
+        },
+        {   
+            "category": "work",
+            "company": "IBM",
+            "position": "Firmware Developer Intern",
+            "startdate": "June 2023",
+            "enddate": "Sept 2023",
+            "description": [
+                [
+                    "Increased efficiency exponentially by fully automated ",
+                    "retrieving and updating Logical Partition data for a ",
+                    "mainframe with a Jenkins Pipeline that sets up a Docker ",
+                    "environment to run Robot Framework and Python scripts that ",
+                    "contact the Hardware Management Console with REST API calls."
+                ],
+                [
+                    "Integrated Robot Framework Keywords within 10+ testing ",
+                    "pipelines that automate filtering and capturing all relevant ",
+                    "logs/files if requested and uploading the organized data on ",
+                    "Jenkins as Artifacts."
+                ]
+            ]
+        },
+        {
+            "category": "organizations",
+            "company": "Tech4Good",
+            "position": "Web Developer",
+            "startdate": "March 2022",
+            "enddate": "June 2023",
+            "description": [
+                [
+                    "Implemented 3+ responsive UI-Containers for Annota; an ",
+                    "AI-enhanced platform designed for peer learning of qualitative ",
+                    "analysis; utilizing JavaScript/TypeScript and Angular."
+                ],
+                [
+                    "Developed the back-end functionality for containers using a cloud ",
+                    "firestore database by using NgRx and RxJS to ensure secure data ",
+                    "management and translated Figma schematics onto user-friendly ",
+                    "web applications using HTML and CSS."
+                ]
+            ]
+        },
+        {
+            "category": "leadership",
+            "company": "Tau Beta Pi",
+            "position": "Recording Secretary",
+            "startdate": "May 2023",
+            "enddate": "Present",
+            "description": [
+                [
+                    "Managed social media accounts to market events/workshops to ",
+                    "increase society engagement and kept website up to date with ",
+                    "current events and announcements."
+
+                ],
+                [
+                    "Conducted behavior interviews and lead the creation of 5+ ",
+                    "events for society members including resume workshops, study ",
+                    "sessions, and social meetings."
+                ]
+            ]
+        }
+
+      ],
+      "projects": [
+        {
+            "name": "Personal Website",
+            "github": "https://github.com",
+            "link": "https://mocode-115a.web.app/",
+            "position": "Developer",
+            "date": "May 2024",
+            "description": [
+                [
+                    "This website!"
+                ]
+                ]
+        },
+        {
+          "name": "MoCode",
+          "github": "https://github.com/cgandotr/MoCode",
+          "link": "https://mocode-115a.web.app/",
+          "position": "Lead Software Developer",
+          "date": "March 2024",
+          "description": [
+            [
+                "Spearheaded the development of a modern interactive platform ",
+                "for software developers to aid technical interview preparation ",
+                "using Agile Scrum."
+
+            ],
+            [
+                "Built a web scraper to compile essential coding problems, subsequently ",
+                "recommending selections from this pool using a spaced repetition-based ",
+                "algorithm for optimized learning."
+            ],
+            [
+                "Incorporated Firebase/Firestore for managing user data, authentication, ",
+                "and visual progress tracking, enabling personalized learning experiences ",
+                "and immediate feedback on user improvement."
+
+            ]
+        ]
+        },
+        {
+            "name": "Info Bot",
+            "position": "Developer",
+            "date": "August 2022",
+            "description": [
+                [
+                    "Created a Bot using Python and Discord’s API for 4+ servers ",
+                    "of 10+ members that fetches JSON data with recent news articles ",
+                    "relevant to an optional user input."
+                ],
+                [
+                    "Implemented an interactive Jeopardy game used daily using JSON data ",
+                    "for a randomized prompt that allows users to compete for personal ",
+                    "accuracy and work together to break the overall streak."
+
+                ],
+                [
+                    "Utilized Replit to host the Bot and its built-in databases to ",
+                    "store Jeopardy statistics and relevant data."
+                ]
+            ]
+        }
+      ]
+  }
