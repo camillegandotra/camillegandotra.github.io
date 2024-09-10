@@ -1,37 +1,75 @@
 {
+    "movies": [
+        {
+            "date": "09-07-2024",
+            "title": "Coraline",
+            "release_year": "2009",
+            "liked": true,
+            "rewatched": true,
+            "image": "https://a.ltrbxd.com/resized/film-poster/4/2/7/7/9/42779-coraline-0-1000-0-1500-crop.jpg?v=b792483e2a"
+        },
+        {
+            "date": "08-27-2024",
+            "title": "Alien: Romulus",
+            "release_year": "2024",
+            "liked": true,
+            "rewatched": true,
+            "image": "https://a.ltrbxd.com/resized/film-poster/8/5/0/4/5/9/850459-alien-romulus-0-1000-0-1500-crop.jpg?v=acabb7fd83"
+        },
+        {
+            "date": "08-27-2024",
+            "title": "The Edge of Seventeen",
+            "release_year": "2016",
+            "liked": false,
+            "rewatched": false,
+            "image": "https://a.ltrbxd.com/resized/film-poster/3/1/1/8/9/4/311894-the-edge-of-seventeen-0-1000-0-1500-crop.jpg?v=2bd20dc1af"
+        },
+        {
+            "date": "08-25-2024",
+            "title": "Twisters",
+            "release_year": "2024",
+            "liked": false,
+            "rewatched": false,
+            "image": "https://a.ltrbxd.com/resized/film-poster/6/4/1/6/0/8/641608-twisters-0-1000-0-1500-crop.jpg?v=b1bb3d5cc7"
+        }
+    ],
     "profile": {
-        "aboutme": ["Hello! My name is Camille Gandotra and I am",
-        " a third year undergraduate student studying Computer Engineering",
-        " at UCSC. ",
-        "I am interested in Parallel Computing and Software Development. ",
-        "Currently I am doing research categorizing weak memory patterns from different ",
-        "memory models and synchronization techniques. ",
-        "I will be joining Microsoft as a Software Developer Intern for the Summer."
+        "aboutme": [
+            "Hello! My name is Camille Gandotra and I am",
+            " a fourth year undergraduate student studying Computer Engineering",
+            " at UCSC. ",
+            "I am interested in Back End Systems, Parallel Computing, and Software Development. ",
+            "Currently I am doing research categorizing weak memory patterns from different ",
+            "memory models and synchronization techniques. ",
+            "I am also working at Microsoft as a Software Engineer Intern for Summer 2024. ",
+            "In my free time I enjoy working out / bouldering and collecting vinyls! "
         ]
     },
-    
     "education": [
-      {
-        "institution": "University of California, Santa Cruz",
-        "degree": "B.S. Computer Engineering",
-        "startdate": "2021",
-        "enddate": "2024",
-        "relevant courses": ["Data Structures and Algorithms, Computer Architecture, ",
-            "Artificial Intelligence, Database Systems, Parallel Programming, Computer Networks, ",
-            "Computer Systems Design, Embedded Systems Design, Computer Systems and C Programming/Assembly, ",
-            "Logic Design, Programming Abstractions: Python, Circuits and Systems"
-        ],
-        "activities/societies": "Tau Beta Pi, Tech4Good"
-      }
+        {
+            "institution": "University of California, Santa Cruz",
+            "degree": "B.S. Computer Engineering",
+            "startdate": "2021",
+            "enddate": "2024",
+            "relevant courses": [
+                "Data Structures and Algorithms, Computer Architecture, ",
+                "Artificial Intelligence, Distributed Systems, Database Systems, Parallel Programming, Computer Networks, ",
+                "Computer Systems Design, Embedded Systems Design, Computer Systems and C Programming/Assembly, ",
+                "Logic Design, Programming Abstractions: Python, Circuits and Systems"
+            ],
+            "activities/societies": "Tau Beta Pi, Tech4Good"
+        }
     ],
     "experience": [
         {
-          "category": "work",
-          "company": "Microsoft",
-          "position": "Incoming Software Developer Intern",
-          "startdate": "June 2024",
-          "enddate": "Sept 2024",
-          "description": []
+            "category": "work",
+            "company": "Microsoft",
+            "position": "Software Engineer Intern",
+            "startdate": "June 2024",
+            "enddate": "Sept 2024",
+            "description": [
+                "Azure Data > Fabric > Power BI"
+            ]
         },
         {
             "category": "organizations",
@@ -40,38 +78,17 @@
             "startdate": "Sept 2023",
             "enddate": "Dec 2023",
             "description": [
-                [
-                    "Assisted deployment of a Slackbot for Timely; an app ",
-                    "augmented with artificial intelligence for improved ",
-                    "scheduling; utilizing Python, Google Cloud Functions, and Slackbot APIs."
-
-                ],
-                [
-                    "Directed 4+ projects, improving user experience and bot's functionality ",
-                    "for scheduling meetings and facilitating decision-making processes."
-                ]
+                "Timely; an app augmented with artificial intelligence for improved scheduling"
             ]
         },
-        {   
+        {
             "category": "work",
             "company": "IBM",
             "position": "Firmware Developer Intern",
             "startdate": "June 2023",
             "enddate": "Sept 2023",
             "description": [
-                [
-                    "Increased efficiency exponentially by fully automated ",
-                    "retrieving and updating Logical Partition data for a ",
-                    "mainframe with a Jenkins Pipeline that sets up a Docker ",
-                    "environment to run Robot Framework and Python scripts that ",
-                    "contact the Hardware Management Console with REST API calls."
-                ],
-                [
-                    "Integrated Robot Framework Keywords within 10+ testing ",
-                    "pipelines that automate filtering and capturing all relevant ",
-                    "logs/files if requested and uploading the organized data on ",
-                    "Jenkins as Artifacts."
-                ]
+                "IBM System Z Firmware Platform Infrastructure"
             ]
         },
         {
@@ -81,17 +98,7 @@
             "startdate": "March 2022",
             "enddate": "June 2023",
             "description": [
-                [
-                    "Implemented 3+ responsive UI-Containers for Annota; an ",
-                    "AI-enhanced platform designed for peer learning of qualitative ",
-                    "analysis; utilizing JavaScript/TypeScript and Angular."
-                ],
-                [
-                    "Developed the back-end functionality for containers using a cloud ",
-                    "firestore database by using NgRx and RxJS to ensure secure data ",
-                    "management and translated Figma schematics onto user-friendly ",
-                    "web applications using HTML and CSS."
-                ]
+                "Annota; an AI-enhanced platform designed for peer learning of qualitative analysis"
             ]
         },
         {
@@ -101,59 +108,67 @@
             "startdate": "May 2023",
             "enddate": "Present",
             "description": [
-                [
-                    "Managed social media accounts to market events/workshops to ",
-                    "increase society engagement and kept website up to date with ",
-                    "current events and announcements."
-
-                ],
-                [
-                    "Conducted behavior interviews and lead the creation of 5+ ",
-                    "events for society members including resume workshops, study ",
-                    "sessions, and social meetings."
-                ]
+                "Engineering honor society; promotes academic excellence, leadership, and community engagement among top engineering students"
             ]
         }
-
-      ],
-      "projects": [
+    ],
+    "projects": [
         {
             "name": "Personal Website",
-            "github": "https://github.com",
-            "link": "https://mocode-115a.web.app/",
+            "github": "https://github.com/camillegandotra/camillegandotra.github.io",
+            "link": "https://camillegandotra.github.io/",
             "position": "Developer",
             "date": "May 2024",
             "description": [
                 [
                     "This website!"
                 ]
-                ]
+            ]
         },
         {
-          "name": "MoCode",
-          "github": "https://github.com/cgandotr/MoCode",
-          "link": "https://mocode-115a.web.app/",
-          "position": "Lead Software Developer",
-          "date": "March 2024",
-          "description": [
-            [
-                "Spearheaded the development of a modern interactive platform ",
-                "for software developers to aid technical interview preparation ",
-                "using Agile Scrum."
-
-            ],
-            [
-                "Built a web scraper to compile essential coding problems, subsequently ",
-                "recommending selections from this pool using a spaced repetition-based ",
-                "algorithm for optimized learning."
-            ],
-            [
-                "Incorporated Firebase/Firestore for managing user data, authentication, ",
-                "and visual progress tracking, enabling personalized learning experiences ",
-                "and immediate feedback on user improvement."
-
+            "name": "MoCode",
+            "github": "https://github.com/cgandotr/MoCode",
+            "link": "https://mocode-115a.web.app/",
+            "position": "Lead Software Developer",
+            "date": "March 2024",
+            "description": [
+                [
+                    "App to aid software developers for technical interview ",
+                    "preparation. Uses spaced repetition-based algorithm for optimized learning. "
+                ]
             ]
-        ]
+        },
+        {
+            "name": "Bug Fest",
+            "github": "https://github.com/camillegandotra/bugfest",
+            "date": "June 2023",
+            "description": [
+                [
+                    "Interactive verilog video game that utilizes controls from BASYS3 board with VGA output, ",
+                    "where players control a slug to catch bugs and avoid obstacles."
+                ]
+            ]
+        },
+        {
+            "name": "HTTP Server",
+            "github": "https://github.com/camillegandotra/httpserver",
+            "date": "Nov 2023",
+            "description": [
+                [
+                    "Multithreaded HTTP Server that supports multiple clients ",
+                    "utilizing concurrent queues and rwlocks."
+                ]
+            ]
+        },
+        {
+            "name": "Huffman Encoder/Decoder",
+            "github": "https://github.com/camillegandotra/huffman",
+            "date": "Nov 2022",
+            "description": [
+                [
+                    "Encoder and Decoder programs that use Huffman Coding. "
+                ]
+            ]
         },
         {
             "name": "Info Bot",
@@ -161,21 +176,10 @@
             "date": "August 2022",
             "description": [
                 [
-                    "Created a Bot using Python and Discord’s API for 4+ servers ",
-                    "of 10+ members that fetches JSON data with recent news articles ",
-                    "relevant to an optional user input."
-                ],
-                [
-                    "Implemented an interactive Jeopardy game used daily using JSON data ",
-                    "for a randomized prompt that allows users to compete for personal ",
-                    "accuracy and work together to break the overall streak."
-
-                ],
-                [
-                    "Utilized Replit to host the Bot and its built-in databases to ",
-                    "store Jeopardy statistics and relevant data."
+                    "Discord Bot that fetches recent news articles based on user input ",
+                    "and has an interactive multi-player Jeopardy game feature."
                 ]
             ]
         }
-      ]
-  }
+    ]
+}

@@ -11,21 +11,23 @@ function Projects() {
         {data.projects.map((p) => (
         <div className="item">
             <div className="item-header">
-              <div className="p-header">
-                <a href={p.link} className="link" target="_blank"id="p-name">{p.name}</a>
-                {p.github && (
-                  <a href={p.github} target="_blank">
-                      <img className="logo" src={githublogo} alt="GitHub Logo" />
+              <div className='item-liner'>
+                <div className="p-header">
+                  <a href={p.link} className="link" target="_blank"id="p-name">{p.name}</a>
+                  {p.github && (
+                    <a href={p.github} target="_blank">
+                        <img className="logo" src={githublogo} alt="GitHub Logo" />
+                    </a>
+                    )}   
+                  {p.link && (
+                  <a href={p.link} target="_blank">
+                      <img className="logo" src={linklogo} alt="Link Logo" />
                   </a>
-                  )}   
-                {p.link && (
-                <a href={p.link} target="_blank">
-                    <img className="logo" src={linklogo} alt="Link Logo" />
-                </a>
-                )}    
+                  )}    
+                </div>
+                <h2 className="time" id="p-time">{p.date}</h2> 
               </div>
                 <h2 id="p-position">{p.position}</h2>
-                  <h2 id="p-time">{p.date}</h2> 
             </div>
             <div id="p-desc">
                 {p.description.map((bullet) => (

@@ -4,7 +4,7 @@ import pfp from'../extra/pfp.jpeg'
 function Intro() {
   return (
     <div className="Intro">
-          <div >
+          <div id="intro-words" >
             <h1 id="name">Camille Gandotra</h1>
             <h2 >Welcome to my website.</h2>
           </div>

@@ -16,9 +16,12 @@ function Experience() {
             .map((exp) => (
               <div className="item">
                 <div className="item-header">
-                  <h2 id="exp-company">{exp.company}</h2>
+                  <div className='item-liner'>
+                    <h2 id="exp-company">{exp.company}</h2>
+
+                    <h2 className="time" id="exp-time">{exp.startdate}-{exp.enddate}</h2>
+                  </div>
                   <h2 id="exp-position">{exp.position}</h2>
-                  <h2 id="exp-time">{exp.startdate}-{exp.enddate}</h2>
                 </div>
                 <div id="exp-desc">
                   {exp.description.map((bullet) => (

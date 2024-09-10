@@ -24,6 +24,9 @@ h2, .link {
   color: rgb(35, 35, 35);
   font-weight: 100;
   line-height: 1.5;
+  width: fit-content;
+    /* border: 5px solid rgb(236, 49, 49); */
+
 }
 
 h3 {
@@ -41,40 +44,39 @@ h3 {
   padding-top: 30px;
 }
 
-.AboutMe, .Contact, .Footer {
-  padding: 0px 20px 0px 20px;
-  margin: 0px 10px 0 10px;
-}
 
 
 .Intro {
   padding: 0 30px 30px 30px;
 }
 
-.AboutMe {
+.AboutMe, .Contact {
   padding-bottom: 20px;
 }
 .Experience, .Education, .Projects {
   padding-top: 40px;
 }
 
-.NavBar {
+.NavBar, .Footer {
   padding: 10px 30px 0 30px;
   margin: 0px 10px 0 10px;
 
 }
 .item {
   /* border: 5px solid rgb(236, 49, 49); */
-  position: relative; /* Make the container position relative to position children absolutely inside it */
   display: flex; /* Using flex to manage layout of other items */
-  align-items: flex-start; /* Align items to the top */
   flex-direction: column;
+
 }
 
 .items {
-  gap: 30px;
+  
+  gap: 10px;
   display: flex;
   flex-direction: column;
+  /* border: 5px solid rgb(49, 136, 236); */
+
+
 }
 
 .item-header {
@@ -88,20 +90,26 @@ h3 {
 }
 
 #edu-degree, #exp-position, #p-position {
-  width: fit-content;
   /* border: 5px solid rgb(236, 49, 49); */
   margin: 0;
 }
 
 #edu-time, #exp-time, #p-time {
   margin: 0;
-  right: 0;
-  top: 0;
-  position:absolute;
-  width: fit-content;
   /* border: 5px solid rgb(236, 49, 49); */
 }
 
 #exp-desc-item {
   padding: 0 0 0 10px;
+}
+
+.item-liner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+canvas {
+  /* border: 2px solid rgb(192, 77, 77); Adjust thickness as needed */
+  /* box-sizing: border-box; */
 }
