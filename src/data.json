@@ -1,36 +1,36 @@
 {
     "movies": [
         {
-            "date": "09-07-2024",
-            "title": "Coraline",
-            "release_year": "2009",
+            "date": "10-02-2024",
+            "title": "Demolition",
+            "release_year": "2015",
             "liked": true,
-            "rewatched": true,
-            "image": "https://a.ltrbxd.com/resized/film-poster/4/2/7/7/9/42779-coraline-0-1000-0-1500-crop.jpg?v=b792483e2a"
+            "rewatched": false,
+            "image": "https://a.ltrbxd.com/resized/sm/upload/eq/0m/h9/y4/xWT9630LEKF9jEXSNjukmpl7mAH-0-1000-0-1500-crop.jpg?v=65d80ac5ec"
         },
         {
-            "date": "08-27-2024",
-            "title": "Alien: Romulus",
+            "date": "10-01-2024",
+            "title": "50/50",
+            "release_year": "2011",
+            "liked": true,
+            "rewatched": false,
+            "image": "https://a.ltrbxd.com/resized/film-poster/2/4/1/7/7/24177-50-50-0-1000-0-1500-crop.jpg?v=ab24bb607e"
+        },
+        {
+            "date": "09-28-2024",
+            "title": "Transformers One",
             "release_year": "2024",
             "liked": true,
-            "rewatched": true,
-            "image": "https://a.ltrbxd.com/resized/film-poster/8/5/0/4/5/9/850459-alien-romulus-0-1000-0-1500-crop.jpg?v=acabb7fd83"
-        },
-        {
-            "date": "08-27-2024",
-            "title": "The Edge of Seventeen",
-            "release_year": "2016",
-            "liked": false,
             "rewatched": false,
-            "image": "https://a.ltrbxd.com/resized/film-poster/3/1/1/8/9/4/311894-the-edge-of-seventeen-0-1000-0-1500-crop.jpg?v=2bd20dc1af"
+            "image": "https://a.ltrbxd.com/resized/film-poster/6/2/2/4/1/3/622413-transformers-one-0-1000-0-1500-crop.jpg?v=b86bf0cdb6"
         },
         {
-            "date": "08-25-2024",
-            "title": "Twisters",
+            "date": "09-27-2024",
+            "title": "Uglies",
             "release_year": "2024",
             "liked": false,
             "rewatched": false,
-            "image": "https://a.ltrbxd.com/resized/film-poster/6/4/1/6/0/8/641608-twisters-0-1000-0-1500-crop.jpg?v=b1bb3d5cc7"
+            "image": "https://a.ltrbxd.com/resized/film-poster/6/8/9/1/3/3/689133-uglies-0-1000-0-1500-crop.jpg?v=22e033885e"
         }
     ],
     "profile": {
@@ -46,6 +46,12 @@
         ]
     },
     "education": [
+        {
+            "institution": "Georgia Institute of Technology",
+            "degree": "M.S. Computer Science",
+            "startdate": "2025",
+            "enddate": "2027"
+        },
         {
             "institution": "University of California, Santa Cruz",
             "degree": "B.S. Computer Engineering",

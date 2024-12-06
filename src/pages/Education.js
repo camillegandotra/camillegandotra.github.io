@@ -5,7 +5,7 @@ function Education() {
   return (
     <div className="Education">
       <h1>> education</h1>
-      <div>
+      <div className='items'>
         {data.education.map((edu) => (
           <div className="item">
             <div className="item-header">
@@ -15,8 +15,16 @@ function Education() {
               </div>
                 <h2 id="edu-degree">{edu.degree}</h2>
             </div>
-            <h2 id="edu-releventcourses">Relevant Courses - {edu['relevant courses']}</h2>
-            <h2 id="edu-activities/societies">Activities/Societies - {edu['activities/societies']}</h2>
+            {
+              edu['relevant courses'] && (
+                <h2 id="edu-releventcourses">Relevant Courses - {edu['relevant courses']}</h2>
+              )
+            }
+            {
+              edu['activities/societies'] && (
+                <h2 id="edu-activities/societies">Activities/Societies - {edu['activities/societies']}</h2>
+              )
+            }
           </div>
         ))}
       </div>

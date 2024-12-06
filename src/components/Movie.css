@@ -11,8 +11,6 @@
     margin-top: 25px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    padding: 0 20px 0 20px;
         /* border: 5px solid rgb(49, 136, 236); */
 
 
@@ -67,4 +65,7 @@
 
 .movieicon {
     width: 10px;
+}
+
+.Movie {
 }
