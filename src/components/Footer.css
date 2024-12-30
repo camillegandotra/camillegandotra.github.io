@@ -1,8 +1,9 @@
 .Footer {
     /* border: 5px solid rgb(236, 49, 49); */
-
     border-top: dashed 1px rgba(0, 0, 0, 1);
-    text-align: end;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Aligns the content to the right */
+    gap: 20px;
+    padding: 10px 10px 10px 0px;
 }
-

@@ -5,7 +5,8 @@
 
 
 #experience-name {
-    
+    color: inherit; 
+
 
     border: 0;
     border-right: 2px solid rgba(0, 0, 0, 1);
