@@ -2,5 +2,4 @@ node_modules/
 src/data.json
 src/test.py
 src/script.sh
-build/
 src/extradata
